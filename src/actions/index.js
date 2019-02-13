@@ -2,7 +2,7 @@ import axios from 'axios';
 import { FETCH_CART_ITEMS, DELETE_CART_ITEM } from 'actions/types';
 
 export function fetchCartItems() {
-    const response = axios.get('http://jsonplaceholder.typicode.com/users/');
+    const response = axios.get('https://jsonplaceholder.typicode.com/users/');
     return {
         type: FETCH_CART_ITEMS,
         payload: response
