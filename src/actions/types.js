@@ -1,0 +1,2 @@
+export const FETCH_CART_ITEMS = 'FETCH_CART_ITEMS';
+export const DELETE_CART_ITEM = 'DELETE_CART_ITEM';
